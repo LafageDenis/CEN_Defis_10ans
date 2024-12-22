@@ -29,7 +29,7 @@ data <- tibble(
   )
 )
 
-ggplot(data, aes(animal, count, fill = animal, image = image)) +
+ggplot(data, aes(Nom, Points, fill = Mois, image = image)) +
   geom_isotype_col(
     img_height = grid::unit(1, "null"), img_width = NULL,
     ncol = 1, nrow = 1, hjust = 1, vjust = 0.5
@@ -37,3 +37,19 @@ ggplot(data, aes(animal, count, fill = animal, image = image)) +
   coord_flip() +
   guides(fill = "none") +
   theme_minimal()
+
+
+
+
+library("ggplot2")
+library("ggimage")
+
+set.seed(2017-02-21)
+img <- list.files(system.file("extdata", package="ggimage"),
+                  pattern="png", full.names=TRUE)
+d <- data.frame(x = rnorm(10),
+                y = rnorm(10),
+                image = sample(img, size=10, replace = TRUE)
+)
+
+ggplot(d, aes(x, y)) + geom_image(aes(image=image), size=.05)
