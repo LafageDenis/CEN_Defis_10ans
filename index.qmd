@@ -30,6 +30,7 @@ library(scales)
 #| include: false
 
 data <- read_csv("./csv/scores_defit_10ans.csv")
+data$Points <- as.numeric(data$Points)
 data$Mois <- factor(data$Mois, levels = c("janvier", "février", "mars", "avril", "mai", "juin", "juillet",
                        "août", "septembre", "octobre", "novembre", "décembre"))
 
@@ -142,10 +143,9 @@ reactable(
 #| echo: false
 #| warning: false
 
+data_2 <- replace_na(data, list(Points = 0))
 
-
-
-ggplot(data = data, 
+ggplot(data = data_2, 
        aes(x = Nom, y = Points, fill= as.factor(Mois))) +
   geom_col() +
   ylim(0,50) +
