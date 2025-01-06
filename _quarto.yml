@@ -1,0 +1,29 @@
+project:
+  type: website
+  
+execute:
+  freeze: auto
+  
+website:
+  title: ""
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    logo: "website-logo.png"
+  sidebar: false  
+
+format:
+  html:
+    #theme: cosmo
+    theme: [sandstone, _variables.scss]
+    css: styles.css
+    toc: true
+    grid: 
+      body-width: 1000px
+      margin-width: 250px
+    
+
+editor: source
+

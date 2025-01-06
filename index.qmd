@@ -1,0 +1,159 @@
+---
+title: "Défis 10 ans du CEN"
+from: markdown+emoji
+logo: website-logo.png
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+---
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(reactablefmtr)
+library(lubridate)
+library(RColorBrewer)
+library(scales)
+```
+
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+data <- read_csv("./csv/scores_defit_10ans.csv")
+data$Mois <- factor(data$Mois, levels = c("janvier", "février", "mars", "avril", "mai", "juin", "juillet",
+                       "août", "septembre", "octobre", "novembre", "décembre"))
+
+data$Nom <- factor(data$Nom, levels = c(
+  "Aline",
+  "Antoine",
+  "Arnaud",
+  "Brice",
+  "Catherine",
+  "Corentin", 
+  "Denis",
+  "Emilie",
+  "Emmanuel",
+  "Eric",
+  "Estelle",
+  "Eve",
+  "Fabrice",
+  "Florentin",
+  "Frédéric",
+  "Guillaume",
+  "Justine",
+  "Laurène",
+  "Lisa",
+  "Marek",
+  "Marie",
+  "Mathilde",
+  "Matthieu",
+  "Maud",
+  "Romain",
+  "Solenn", 
+  "Swann",
+  "Tristan",
+  "Valérie"
+  ))
+
+mois_encours <- month(Sys.Date())
+```
+
+::: {.column-}
+![](./logo.png){fig-align="center" height=150} 
+:::
+
+En 2025, le Conservatoire d’espaces naturels des Pays de la Loire fête ses 10 ans. Pour l’occasion et afin de rythmer cette année pas comme les autres, l’équipe communication vous propose de relever plusieurs petits défis mensuels.  
+Rien de compliqué, tout est accessible à tout le monde. Alors laissez parler votre âme d'enfant, de joueur ou de compétiteur et retrouvez chaque mois votre place dans le classement.  
+Restez attentifs, il se pourrait que des indices soient parfois glissés sur ce site pour vous aider à anticiper ou réaliser les défis.
+Alors 3, 2, 1, GO… **À VOUS DE JOUER !**
+
+Les règles du jeux sont disponibles [ici](about.qmd)
+
+# Les défis 
+
+Cliquer sur le défi pour l'agrandir. Seuls les défis passés ou en cours sont 
+visibles... :innocent:
+
+::: {layout-ncol=3}
+
+![](1.Janvier.jpg){fig-align="center" height=180 .lightbox} 
+![](2.Fevrier_blur.jpg){fig-align="center" height=180} 
+![](3.Mars_blur.jpg){fig-align="center" height=180} 
+![](4.Avril_blur.jpg){fig-align="center" height=180}
+![](5.Mai_blur.jpg){fig-align="center" height=180}
+![](6.Juin_blur.jpg){fig-align="center" height=180}
+![](7.Juillet_blur.jpg){fig-align="center" height=180}
+![](8.Aout_blur.jpg){fig-align="center" height=180}
+![](9.Septembre_blur.jpg){fig-align="center" height=180}
+![](10.Octobre_blur.jpg){fig-align="center" height=180}
+![](11.Novembre_blur.jpg){fig-align="center" height=180}
+![](12.Decembre_blur.jpg){fig-align="center" height=180}
+:::
+
+# Nombre de défis terminés
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+data_sum <- data |>
+  group_by(Nom) |> 
+  summarise(`Défis remportés` = sum(!is.na(Points)), .groups = "keep") |> 
+  ungroup() |> 
+  add_row(Nom = "Total possible", `Défis remportés` = 12)
+
+palette_new <- grDevices::colorRampPalette(colors = c("#d5d5d5", "#f9e2ff", "#e1f2c6", "#fefccb", "#fee8f4", "#def6ff", "#fbc0b8", "#ffe576", "#9ffacf", "#ffcb99", "#cecece", "#ff6b6b"))(12)
+  
+  
+```
+
+```{r}
+#| echo: false
+reactable(
+  data_sum,
+  defaultColDef = colDef(align = "left", maxWidth = 300), 
+  sortable = TRUE,
+  defaultSorted = "Défis remportés",
+  defaultSortOrder = "desc",
+  columns = list(
+      `Défis remportés` = colDef(
+        cell = icon_assign(data_sum, icon = "heart-circle-check", fill_color = "maroon1", show_values = "right"))
+  )
+)
+```
+
+
+# Classement général en points
+
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+
+
+
+ggplot(data = data, 
+       aes(x = Nom, y = Points, fill= as.factor(Mois))) +
+  geom_col() +
+  ylim(0,50) +
+  xlab("Joueurs") + ylab("Points") + labs(fill = "Mois") +
+  coord_flip()+
+  theme_bw()+
+  scale_fill_manual(values = palette_new)
+
+```
+
+

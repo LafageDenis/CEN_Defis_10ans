@@ -1,0 +1,23 @@
+---
+title: "Règles du jeu"
+from: markdown+emoji
+---
+
+**RAPPEL DES RÈGLES :**
+
+- Chaque début de mois, un défi mensuel vous sera proposé par mail (pas de 
+panique, les défis sont accessibles à tous).
+- Chaque défi est à réaliser individuellement
+- Chacun est libre d’y participer ou non, tous les mois ou les mois qu’il/elle 
+souhaite
+- Un nombre de points est attribué à chaque défi (de 2 à 8, variable selon les 
+mois)
+- Au total, si tous les défis sont réalisés, il est possible de remporter 
+jusqu’à 50 points sur l’année
+- Chaque défi réalisé doit être accompagné d’un justificatif (photo, capture 
+d’écran…) à nous envoyer avant la fin du mois en cours pour valider l’attribution 
+des points (par mail ou sur groupe whatsapp dédié)
+- Chaque mois, un classement des salariés sera actualisé selon les défis 
+réalisés et consultable plus bas.
+- En fin d’année, un bilan sera effectué et la personne ayant obtenu le plus de 
+points se verra récompensée d’un petit cadeau :wink:
