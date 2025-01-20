@@ -36,6 +36,7 @@ data$Mois <- factor(data$Mois, levels = c("janvier", "février", "mars", "avril"
 
 data$Nom <- factor(data$Nom, levels = c(
   "Aline",
+  "Amélie",
   "Antoine",
   "Arnaud",
   "Brice",
