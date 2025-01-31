@@ -60,7 +60,6 @@ data$Nom <- factor(data$Nom, levels = c(
   "Mathilde",
   "Matthieu",
   "Maud",
-  "Romain",
   "Solenn", 
   "Swann",
   "Tristan",
