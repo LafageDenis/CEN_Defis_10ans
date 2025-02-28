@@ -89,7 +89,7 @@ visibles... :innocent:
 
 ![](1.Janvier.jpg){fig-align="center" height=180 .lightbox} 
 ![](2.Fevrier.jpg){fig-align="center" height=180 .lightbox} 
-![](3.Mars_blur.jpg){fig-align="center" height=180} 
+![](3.Mars.jpg){fig-align="center" height=180 .lightbox}
 ![](4.Avril_blur.jpg){fig-align="center" height=180}
 ![](5.Mai_blur.jpg){fig-align="center" height=180}
 ![](6.Juin_blur.jpg){fig-align="center" height=180}
