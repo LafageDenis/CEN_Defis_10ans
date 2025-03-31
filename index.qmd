@@ -33,14 +33,18 @@ data <- read_csv("./csv/scores_defit_10ans.csv")
 data$Points <- as.numeric(data$Points)
 data$Mois <- factor(data$Mois, levels = c("janvier", "février", "mars", "avril", "mai", "juin", "juillet",
                        "août", "septembre", "octobre", "novembre", "décembre"))
+data$M <- factor(data$Mois, levels = c("ja", "f", "m", "av", "ma", "j", "ju",
+                       "au", "s", "o", "n", "d"))
 
 data$Nom <- factor(data$Nom, levels = c(
   "Aline",
   "Amélie",
   "Antoine",
+  "Antonin",
   "Arnaud",
   "Brice",
   "Catherine",
+  "Cloé",
   "Corentin", 
   "Denis",
   "Emilie",
@@ -120,21 +124,62 @@ data_sum <- data |>
 palette_new <- grDevices::colorRampPalette(colors = c("#d5d5d5", "#f9e2ff", "#e1f2c6", "#fefccb", "#fee8f4", "#def6ff", "#fbc0b8", "#ffe576", "#9ffacf", "#ffcb99", "#cecece", "#ff6b6b"))(12)
   
   
+data_w <- data |> 
+  mutate(completed = if_else(is.na(Points) , 0, 1)) |> 
+  pivot_wider(id_cols = Nom, names_from = Mois, values_from = completed) |> 
+  rowwise() |> 
+  mutate(total = rowSums(across(where(is.numeric))))
 ```
 
 ```{r}
 #| echo: false
+
+# reactable(
+#   data_sum,
+#   defaultColDef = colDef(align = "left", maxWidth = 300), 
+#   sortable = TRUE,
+#   defaultSorted = "Défis remportés",
+#   defaultSortOrder = "desc",
+#   columns = list(
+#       `Défis remportés` = colDef(
+#         cell = icon_assign(data_sum, icon = "heart-circle-check", fill_color = "maroon1", show_values = "right"))
+#   )
+# )
+
+
 reactable(
-  data_sum,
-  defaultColDef = colDef(align = "left", maxWidth = 300), 
+  data_w,
+  defaultColDef = colDef(align = "left", maxWidth = 200), 
   sortable = TRUE,
-  defaultSorted = "Défis remportés",
+  defaultSorted = "total",
   defaultSortOrder = "desc",
   columns = list(
-      `Défis remportés` = colDef(
-        cell = icon_assign(data_sum, icon = "heart-circle-check", fill_color = "maroon1", show_values = "right"))
-  )
-)
+    janvier = colDef(name = "", width = 27,
+                     cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    février = colDef(name = "", width = 27,
+                     cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    mars = colDef(name = "", width = 27,
+                  cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    avril = colDef(name = "", width = 27,
+      cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    mai = colDef(name = "", width = 27,
+                 cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    juin = colDef(name = "", width = 27,
+                  cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    juillet = colDef(name = "", width = 27,
+                cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    août = colDef(name = "", width = 27,
+                  cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    septembre = colDef(name = "", width = 27,
+                  cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    octobre = colDef(name = "", width = 27,
+                  cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    novembre = colDef(name = "", width = 27,
+                  cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    décembre = colDef(name = "", width = 27,
+                  cell = icon_assign(data_w, icon = "heart-circle-check", fill_color = "maroon1")),
+    total = colDef(name = "Total", width = 80, align = "center")
+  ))
 ```
 
 
