@@ -74,6 +74,13 @@ data$Nom <- factor(data$Nom, levels = c(
   ))
 
 mois_encours <- month(Sys.Date())
+
+
+tps_avr <- read_csv("./csv/temps_avril.csv")
+best_avr <- tps_avr |> 
+  group_by(Nom) |> 
+  summarise(bestTps = seconds_to_period(min(Temps)),
+            Nb_try = n())
 ```
 
 ::: {.column-}
@@ -107,6 +114,27 @@ visibles... :innocent:
 ![](11.Novembre_blur.jpg){fig-align="center" height=180}
 ![](12.Decembre_blur.jpg){fig-align="center" height=180}
 :::
+
+<!-- # Défis d'avril ! Tableau des temps -->
+
+<!-- ```{r} -->
+<!-- #| echo: false -->
+
+<!-- reactable( -->
+<!--   best_avr, -->
+<!--   defaultSorted = "bestTps", -->
+<!--   defaultSortOrder = "desc", -->
+<!--   sortable = TRUE, -->
+<!--   defaultColDef = colDef(headerClass = "header", align = "left"), -->
+<!--   columns = list( -->
+<!--     best_avr = colDef( -->
+<!--       cell =  -->
+<!--     ) -->
+<!-- ) -->
+
+
+<!-- ``` -->
+
 
 # Nombre de défis terminés
 
