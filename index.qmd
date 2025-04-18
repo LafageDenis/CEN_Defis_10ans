@@ -136,8 +136,10 @@ visibles... :innocent:
 
 # Ielle(s) sont en tête !
 
+**Arnaud**  
+![Arnaud](Arnaud_ghilbli.png){fig-align="center" height=180 .lightbox}  
 **Mathilde**  
-![Mathilde](mathilde_gibly.png){fig-align="center" height=180 .lightbox}
+![Mathilde](mathilde_gibly_2.png){fig-align="center" height=180 .lightbox}
 
 **Swann**  
 ![Swann](swann_gibly.png){fig-align="center" height=180 .lightbox}
