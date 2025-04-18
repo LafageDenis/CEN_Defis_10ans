@@ -47,7 +47,6 @@ data$Nom <- factor(data$Nom, levels = c(
   "Cloé",
   "Corentin", 
   "Denis",
-  "Emilie",
   "Emmanuel",
   "Eva",
   "Eric",
@@ -135,6 +134,13 @@ visibles... :innocent:
 
 <!-- ``` -->
 
+# Ielle(s) sont en tête !
+
+**Mathilde**  
+![Mathilde](mathilde_gibly.png){fig-align="center" height=180 .lightbox}
+
+**Swann**  
+![Swann](swann_gibly.png){fig-align="center" height=180 .lightbox}
 
 # Nombre de défis terminés
 
