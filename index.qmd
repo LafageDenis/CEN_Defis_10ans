@@ -138,11 +138,18 @@ visibles... :innocent:
 
 **Arnaud**  
 ![Arnaud](Arnaud_ghilbli.png){fig-align="center" height=180 .lightbox}  
+
+**Frédéric**  
+![Frédéric](frederic_gibly.png){fig-align="center" height=180 .lightbox}
+
 **Mathilde**  
 ![Mathilde](mathilde_gibly_2.png){fig-align="center" height=180 .lightbox}
 
 **Swann**  
 ![Swann](swann_gibly.png){fig-align="center" height=180 .lightbox}
+
+**Tristan**  
+![Tristan](tristan_gibly.png){fig-align="center" height=180 .lightbox}
 
 # Nombre de défis terminés
 
