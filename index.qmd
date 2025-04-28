@@ -136,8 +136,13 @@ visibles... :innocent:
 
 # Ielle(s) sont en tête !
 
+::: {layout-ncol=3}
+
 **Arnaud**  
 ![Arnaud](Arnaud_ghilbli.png){fig-align="center" height=180 .lightbox}  
+
+**Eve**  
+![Eve](eve_ghibli.png){fig-align="center" height=180 .lightbox}  
 
 **Frédéric**  
 ![Frédéric](frederic_gibly.png){fig-align="center" height=180 .lightbox}
@@ -150,6 +155,8 @@ visibles... :innocent:
 
 **Tristan**  
 ![Tristan](tristan_gibly.png){fig-align="center" height=180 .lightbox}
+
+::: 
 
 # Nombre de défis terminés
 
