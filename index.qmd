@@ -138,6 +138,8 @@ visibles... :innocent:
 
 ::: {layout-ncol=3}
 
+**Amélie**  
+![Amélie](amelie_ghibbli.png){fig-align="center" height=180 .lightbox}  
 **Arnaud**  
 ![Arnaud](Arnaud_ghilbli.png){fig-align="center" height=180 .lightbox}  
 
@@ -155,6 +157,7 @@ visibles... :innocent:
 
 **Tristan**  
 ![Tristan](tristan_gibly.png){fig-align="center" height=180 .lightbox}
+
 
 ::: 
 
