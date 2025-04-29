@@ -147,8 +147,10 @@ visibles... :innocent:
 ![Eve](eve_ghibli.png){fig-align="center" height=180 .lightbox}  
 
 **Frédéric**  
-![Frédéric](frederic_gibly.png){fig-align="center" height=180 .lightbox}
+![Frédéric](frederic_gibly.png){fig-align="center" height=180 .lightbox}  
 
+**Marek**  
+![Marek](marek_ghibbli.png){fig-align="center" height=180 .lightbox}  
 **Mathilde**  
 ![Mathilde](mathilde_gibly_2.png){fig-align="center" height=180 .lightbox}
 
