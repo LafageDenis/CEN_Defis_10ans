@@ -146,6 +146,10 @@ visibles... :innocent:
 **Eve**  
 ![Eve](eve_ghibli.png){fig-align="center" height=180 .lightbox}  
 
+**Fabrice**  
+![Fabrice](fabrice_ghibbli.png){fig-align="center" height=180 .lightbox}  
+
+
 **Florentin**  
 ![Florentin](florentin_ghibbli.png){fig-align="center" height=180 .lightbox}  
 
@@ -154,6 +158,10 @@ visibles... :innocent:
 
 **Marek**  
 ![Marek](marek_ghibbli.png){fig-align="center" height=180 .lightbox}  
+
+**Marie**  
+![Marie](marie_ghibbli.png){fig-align="center" height=180 .lightbox}  
+
 **Mathilde**  
 ![Mathilde](mathilde_gibly_2.png){fig-align="center" height=180 .lightbox}
 
