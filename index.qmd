@@ -104,7 +104,7 @@ visibles... :innocent:
 ![](2.Fevrier.jpg){fig-align="center" height=180 .lightbox} 
 ![](3.Mars.jpg){fig-align="center" height=180 .lightbox}
 ![](4.Avril.jpg){fig-align="center" height=180 .lightbox}
-![](5.Mai_blur.jpg){fig-align="center" height=180}
+![](5.Mai.jpg){fig-align="center" height=180 .lightbox}
 ![](6.Juin_blur.jpg){fig-align="center" height=180}
 ![](7.Juillet_blur.jpg){fig-align="center" height=180}
 ![](8.Aout_blur.jpg){fig-align="center" height=180}
@@ -138,27 +138,8 @@ visibles... :innocent:
 
 ::: {layout-ncol=3}
 
-**Amélie**  
-![Amélie](amelie_ghibbli.png){fig-align="center" height=180 .lightbox}  
-**Arnaud**  
-![Arnaud](Arnaud_ghilbli.png){fig-align="center" height=180 .lightbox}  
-
-**Eve**  
-![Eve](eve_ghibli.png){fig-align="center" height=180 .lightbox}  
-
-**Frédéric**  
-![Frédéric](frederic_gibly.png){fig-align="center" height=180 .lightbox}  
-
-**Marek**  
-![Marek](marek_ghibbli.png){fig-align="center" height=180 .lightbox}  
-**Mathilde**  
-![Mathilde](mathilde_gibly_2.png){fig-align="center" height=180 .lightbox}
-
-**Swann**  
-![Swann](swann_gibly.png){fig-align="center" height=180 .lightbox}
-
-**Tristan**  
-![Tristan](tristan_gibly.png){fig-align="center" height=180 .lightbox}
+**Antoine**  
+![Antoine](antoine_ghibbli.png){fig-align="center" height=180 .lightbox}  
 
 
 ::: 
