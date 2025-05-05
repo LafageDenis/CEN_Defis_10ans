@@ -138,39 +138,14 @@ visibles... :innocent:
 
 ::: {layout-ncol=3}
 
-**Amélie**  
-![Amélie](amelie_ghibbli.png){fig-align="center" height=180 .lightbox}  
 **Arnaud**  
 ![Arnaud](Arnaud_ghilbli.png){fig-align="center" height=180 .lightbox}  
 
-**Eve**  
-![Eve](eve_ghibli.png){fig-align="center" height=180 .lightbox}  
-
-**Fabrice**  
-![Fabrice](fabrice_ghibbli.png){fig-align="center" height=180 .lightbox}  
-
-
-**Florentin**  
-![Florentin](florentin_ghibbli.png){fig-align="center" height=180 .lightbox}  
-
 **Frédéric**  
-![Frédéric](frederic_gibly.png){fig-align="center" height=180 .lightbox}  
-
-**Marek**  
-![Marek](marek_ghibbli.png){fig-align="center" height=180 .lightbox}  
-
-**Marie**  
-![Marie](marie_ghibbli.png){fig-align="center" height=180 .lightbox}  
+![Frédéric](frederic_gibly.png){fig-align="center" height=180 .lightbox}    
 
 **Mathilde**  
-![Mathilde](mathilde_gibly_2.png){fig-align="center" height=180 .lightbox}
-
-**Swann**  
-![Swann](swann_gibly.png){fig-align="center" height=180 .lightbox}
-
-**Tristan**  
-![Tristan](tristan_gibly.png){fig-align="center" height=180 .lightbox}
-
+![Mathilde](mathilde_gibly_2.png){fig-align="center" height=180 .lightbox}  
 
 ::: 
 
