@@ -139,8 +139,9 @@ visibles... :innocent:
 ::: {layout-ncol=3}
 
 
-**Swann**  
-![Swann](swann_gibly.png){fig-align="center" height=180 .lightbox}  
+<!-- **Fred**   -->
+<!--[Swann](swann_gibly.png){fig-align="center" height=180 .lightbox} -->
+![Fred](frederic_gibly.png){fig-align="center" height=180 .lightbox}  
 ::: 
 
 # Nombre de défis terminés
