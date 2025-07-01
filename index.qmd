@@ -139,7 +139,7 @@ visibles... :innocent:
 ::: {layout-ncol=3}
 
 
-**Swann**
+**Swann**  
 ![Swann](swann_gibly.png){fig-align="center" height=180 .lightbox}
 <!--![Fred](frederic_gibly.png){fig-align="center" height=180 .lightbox}  -->
 ::: 
