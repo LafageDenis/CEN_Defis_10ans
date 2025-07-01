@@ -106,7 +106,7 @@ visibles... :innocent:
 ![](4.Avril.jpg){fig-align="center" height=180 .lightbox}
 ![](5.Mai.jpg){fig-align="center" height=180 .lightbox}
 ![](6.Juin.jpg){fig-align="center" height=180 .lightbox}
-![](7.Juillet_blur.jpg){fig-align="center" height=180}
+![](7.Juillet.jpg){fig-align="center" height=180 .lightbox}
 ![](8.Aout_blur.jpg){fig-align="center" height=180}
 ![](9.Septembre_blur.jpg){fig-align="center" height=180}
 ![](10.Octobre_blur.jpg){fig-align="center" height=180}
@@ -139,9 +139,9 @@ visibles... :innocent:
 ::: {layout-ncol=3}
 
 
-<!-- **Fred**   -->
-<!--[Swann](swann_gibly.png){fig-align="center" height=180 .lightbox} -->
-![Fred](frederic_gibly.png){fig-align="center" height=180 .lightbox}  
+**Swann**
+![Swann](swann_gibly.png){fig-align="center" height=180 .lightbox}
+<!--![Fred](frederic_gibly.png){fig-align="center" height=180 .lightbox}  -->
 ::: 
 
 # Nombre de défis terminés
