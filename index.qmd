@@ -139,9 +139,11 @@ visibles... :innocent:
 ::: {layout-ncol=3}
 
 
-**Fred'**  
+**Fred**  
 <!-- ![Marek](marek_ghibbli.png){fig-align="center" height=180 .lightbox} -->
-![Fred](frederic_gibly.png){fig-align="center" height=180 .lightbox}
+![Fred](frederic_gibly.png){fig-align="center" height=180 .lightbox}  
+**Eve**  
+![Eve](eve_ghibli.png){fig-align="center" height=180 .lightbox}
 ::: 
 
 # Nombre de défis terminés
